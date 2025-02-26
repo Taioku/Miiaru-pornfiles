@@ -10,18 +10,85 @@
             "1": "reset_"
         }
     },
-    "display": {
-        "separator": " | "
+        "display": {
+            "separator": " | "
     },
     "modules": [
+            "break",
         {
             "type": "title",
-            "format": "    卂尺匚卄 ㄥ丨几ㄩ乂",
+            "format": "        卂尺匚卄 ㄥ丨几ㄩ乂",
         },
+            "break",
         {
             "type": "os",
-            "key": "󰣇 OS", 
+            "key": "┃ 󰣇 OS", 
             "format": "{2}",
+            "keyColor": "reset_"
+        },
+        {
+            "type": "kernel",
+            "key": "┃  Kernel",
+            "format": "{2}",
+            "keyColor": "reset_"
+        },
+        {
+            "type": "terminal",
+            "key": "┃  Terminal",
+            "keyColor": "reset_"
+        },
+        {
+            "type": "packages",
+            "key": "┃ 󰏗 Packages",
+            "keyColor": "reset_"
+        },
+        {
+            "type": "command",
+            "key": "┃ 󱦟 OS Age",
+            "keyColor": "reset_",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "┃ 󱫐 Uptime",
+            "keyColor": "reset_"
+        },
+            "break",
+        {
+            "type": "title",
+            "key": "         ",
+            "format": "{6}{7}{8}",
+            "keyColor": "reset_"
+        },
+            "break",    
+        {
+            "type": "display",
+            "key": "┃ 󰍹 Display",
+            "format": "{1}x{2} @ {3}Hz [{7}]",
+            "keyColor": "reset_"
+        },
+        {
+            "type": "cpu",
+            "key": "┃  CPU",
+            "format": "{1} @ {7}", 
+            "keyColor": "reset_"
+        },
+        {
+            "type": "gpu",
+            "key": "┃ 󰊴 GPU",
+            "format": "{2}",
+            "keyColor": "reset_"
+        },
+        {
+            "type": "memory",
+            "key": "┃ 🐏 Memory",
+            "keyColor": "reset_"
+        },
+            "break",
+        {
+            "type": "colors",
+            "paddingLeft": 10,
+            "symbol": "circle"
         }
     ]
 }
