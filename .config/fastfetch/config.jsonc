@@ -15,12 +15,13 @@
     },
     "modules": [
         {
-            "type": "custom",
-            "format": "    ＡＲＣＨ ＬＩＮＵＸ",
+            "type": "title",
+            "format": "    卂尺匚卄 ㄥ丨几ㄩ乂",
         },
         {
-            "type": "custom",
-            "format": "AAAAAAAAAA"
+            "type": "os",
+            "key": "󰣇 OS", 
+            "format": "{2}",
         }
     ]
 }
