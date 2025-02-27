@@ -36,7 +36,7 @@ yay -S qt5-wayland qt6-wayland
 
 ### [Noto Fonts](https://fonts.google.com/noto)
 ```
-
+yay -S noto-fonts
 ```
 
 # Customization
