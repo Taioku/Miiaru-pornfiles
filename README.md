@@ -15,6 +15,19 @@ makepkg -si
 [hyprland](https://hyprland.org/)
 [git](https://github.com/hyprwm/Hyprland)
 
+#### Notification Daemo
+[Swaync](https://github.com/ErikReider/SwayNotificationCenter)
+```
+sudo pacman -S swaync
+```
+
+#### Pipewire
+[pipewire](https://www.pipewire.org/)
+[wireplumber](https://wiki.archlinux.org/title/WirePlumber)
+```
+sudo pacman -S pipewire wireplumber
+```
+
 #### Terminal Emulator
 [Kitty](https://sw.kovidgoyal.net/kitty/)
 [git](https://github.com/kovidgoyal/kitty)
@@ -23,17 +36,18 @@ makepkg -si
 [Waybar](https://github.com/Alexays/Waybar)
 
 #### Application Launcher
-[Wofi]
+[Wofi](https://hg.sr.ht/~scoopta/wofi)
 
 #### File Manager
+[Dolphin](https://apps.kde.org/dolphin/)
 [List Files](https://github.com/gokcehan/lf/tree/master)
 
 fastfetch
 
 kitty
-thunar
 
 
+[Pywal](https://github.com/dylanaraps/pywal)
 swaybg
 swaync
 
