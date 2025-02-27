@@ -3,7 +3,7 @@
         "position": "bottom",
         "reload_style_on_change": true,
         "modules-left": ["custom/notification","clock","custom/pacman","tray"],
-        "modules-center": ["hyprland/workspaces"],
+        "modules-center": ["hyprland/workspaces", "hyprland/window"],
         "modules-right": ["group/expand","bluetooth","network","battery"],
 
 
@@ -30,7 +30,7 @@
             }
         },
         "custom/pacman": {
-            "format": "󰅢 {}",
+            "format": "󰅢   {}",
             "interval": 30,
             "exec": "checkupdates | wc -l",
             "exec-if": "exit 0",
@@ -56,14 +56,18 @@
                 "*": [ 1,2,3,4,5 ]
             }
         },
-
+        "hyprland/window": {
+            "format": "❯ {} ❮",
+            "separate-outputs": true
+        },
 
         
+
         "group/expand": {
             "orientation": "horizontal",
             "drawer": {
                 "transition-duration": 300,
-                "transition-to-left": true,
+                "transition-toi-left": true,
                 "click-to-reveal": true
             },
             "modules": ["custom/expand","cpu","memory","temperature","custom/endpoint"],
@@ -101,9 +105,9 @@
             "on-click-right": "blueman-manager",
         },
         "network": {
-            "format-wifi": "",
-            "format-ethernet":"",
-            "format-disconnected": "",
+            "format-wifi": " ",
+            "format-ethernet":" ",
+            "format-disconnected": " ",
             "tooltip-format-disconnected": "Error",
             "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
             "tooltip-format-ethernet": "{ifname} 🖧 ",
