@@ -17,4 +17,8 @@ eza
 asciiquarium
 cbonsai
 
+#sing
+mplayer
+wget
+
 firefox
