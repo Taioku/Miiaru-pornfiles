@@ -1,7 +1,7 @@
 # Miiaru-pornfiles
 *dotfiles
 
-#### Package Installer
+### Package Installer
 [YAY](https://aur.archlinux.org/packages/yay)
 [git](https://github.com/Jguer/yay?tab=readme-ov-file)
 ```
@@ -11,22 +11,37 @@ cd yay
 makepkg -si
 ```
 
-#### Window Manager
+
+
+### Window Manager
 [hyprland](https://hyprland.org/)
 [git](https://github.com/hyprwm/Hyprland)
 
 #### Notification Daemo
 [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
 ```
-sudo pacman -S swaync
+yay -S swaync
 ```
 
 #### Pipewire
 [pipewire](https://www.pipewire.org/)
 [wireplumber](https://wiki.archlinux.org/title/WirePlumber)
 ```
-sudo pacman -S pipewire wireplumber
+yay -S pipewire wireplumber
 ```
+
+#### XDG Desktop Portal
+[xdg-desktop-portal-hyprland]()
+```
+yay -S xdg-desktop-portal-hyprland-git
+```
+
+
+
+
+
+
+
 
 #### Terminal Emulator
 [Kitty](https://sw.kovidgoyal.net/kitty/)
