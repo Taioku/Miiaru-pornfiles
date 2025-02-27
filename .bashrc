@@ -11,6 +11,7 @@ alias loop='sudo reboot'
 alias fonts='fc-list -f "%{family}\n"'
 alias v='vim'
 alias n='nvim'
+alias sing='~/.config/scripts/./sing.sh'
 PS1='[\u@\h \W]\$ '
 
 fastfetch
