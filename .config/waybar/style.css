@@ -8,7 +8,7 @@
 }
 
 window#waybar{
-    all:unset;
+    all: unset;
 }
 
 .modules-left {
@@ -65,6 +65,7 @@ tooltip {
 }
 #workspaces button {
     all: unset;
+    margin-top: 1px;
     padding: 0px 5px;
     color: alpha(@color1, .2);
     transition: all .2s ease;
