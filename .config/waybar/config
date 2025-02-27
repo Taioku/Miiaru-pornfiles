@@ -38,7 +38,10 @@
             "signal": 8,
             "tooltip": false,
         },
-
+        "hyprland/window": {
+            "format": "❯ {} ❮",
+            "separate-outputs": true
+        },
 
 
         "hyprland/workspaces": {
@@ -52,12 +55,8 @@
                 "*": [ 1,2,3,4,5 ]
             }
         },
-        "hyprland/window": {
-            "format": "❯ {} ❮",
-            "separate-outputs": true
-        },
 
-        
+
 
         "group/expand": {
             "orientation": "horizontal",
@@ -122,11 +121,11 @@
             "format-alt": "{time} {icon}",
             "format-icons": [
                 "󰁻",
-            "󰁼",
-            "󰁾",
-            "󰂀",
-            "󰂂",
-            "󰁹"
+                "󰁼",
+                "󰁾",
+                "󰂀",
+                "󰂂",
+                "󰁹"
             ],
         },
 } 
