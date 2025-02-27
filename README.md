@@ -24,7 +24,7 @@ yay -S swaync
 yay -S pipewire wireplumber
 ```
 
-### XDG Desktop Portal [xdg-desktop-portal-hyprland]()
+### XDG Desktop Portal [xdg-desktop-portal-hyprland](https://wiki.hyprland.org/Hypr-Ecosystem/xdg-desktop-portal-hyprland)
 ```
 yay -S xdg-desktop-portal-hyprland-git
 ```
@@ -32,6 +32,11 @@ yay -S xdg-desktop-portal-hyprland-git
 ### Qt Wayland Support
 ```
 yay -S qt5-wayland qt6-wayland
+```
+
+### [Noto Fonts](https://fonts.google.com/noto)
+```
+
 ```
 
 # Customization
