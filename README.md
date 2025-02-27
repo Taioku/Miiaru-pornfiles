@@ -1,7 +1,7 @@
 # Miiaru-pornfiles
 *dotfiles
 
-### Package Installer
+## Package Installer
 [YAY](https://aur.archlinux.org/packages/yay)
 [git](https://github.com/Jguer/yay?tab=readme-ov-file)
 ```
@@ -11,9 +11,12 @@ cd yay
 makepkg -si
 ```
 
-### Window Manager
+## Window Manager
 [hyprland](https://hyprland.org/)
 [git](https://github.com/hyprwm/Hyprland)
+```
+yay -S hyprland
+```
 
 #### Notification Daemo
 [Swaync](https://github.com/ErikReider/SwayNotificationCenter)
@@ -34,7 +37,7 @@ yay -S pipewire wireplumber
 yay -S xdg-desktop-portal-hyprland-git
 ```
 
-##### Qt Wayland Support
+#### Qt Wayland Support
 ```
 yay -S qt5-wayland qt6-wayland
 ```
