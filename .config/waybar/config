@@ -81,7 +81,7 @@
         },
         "temperature": {
             "critical-threshold": 80,
-            "format": "",
+            "format": " ",
         },
         "custom/endpoint":{
             "format": "|",
