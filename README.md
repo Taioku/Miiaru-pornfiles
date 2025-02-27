@@ -1,11 +1,12 @@
 # Miiaru-s-pornfiles
 *dotfiles
 
-### Window Manager
+#### Window Manager
 [hyprland](https://hyprland.org/)
 
 
-### [YAY](https://aur.archlinux.org/packages/yay)
+#### Package Installer
+[YAY](https://aur.archlinux.org/packages/yay)
 [git](https://github.com/Jguer/yay?tab=readme-ov-file)
 ```
 sudo pacman -S --needed git base-devel
