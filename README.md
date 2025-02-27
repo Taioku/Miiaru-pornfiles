@@ -39,12 +39,12 @@ yay -S qt5-wayland qt6-wayland
 yay -S networkmanager
 ```
 
-### [Blueman](https://github.com/blueman-project/blueman)
+### Bluetooth Manager [Blueman](https://github.com/blueman-project/blueman)
 ```
 yay -S blueman
 ```
 
-### [Noto Fonts](https://fonts.google.com/noto)
+### Fonts [Noto Fonts](https://fonts.google.com/noto)
 ```
 yay -S noto-fonts
 ```
@@ -56,6 +56,15 @@ yay -S noto-fonts
 yay -S waybar
 ```
 
+### Wallpaper Daemon [swww](https://github.com/LGFae/swww)
+```
+yay -S swww
+```
+
+### Wallpaper Manager [Waypaper](https://github.com/anufrievroman/waypaper)
+```
+yay -S waypaper
+```
 
 
 
