@@ -11,8 +11,6 @@ cd yay
 makepkg -si
 ```
 
-
-
 ### Window Manager
 [hyprland](https://hyprland.org/)
 [git](https://github.com/hyprwm/Hyprland)
