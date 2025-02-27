@@ -34,6 +34,10 @@ yay -S pipewire wireplumber
 yay -S xdg-desktop-portal-hyprland-git
 ```
 
+##### Qt Wayland Support
+```
+yay -S qt5-wayland qt6-wayland
+```
 
 
 
