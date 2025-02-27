@@ -34,6 +34,16 @@ yay -S xdg-desktop-portal-hyprland-git
 yay -S qt5-wayland qt6-wayland
 ```
 
+### [Network Manager](https://www.networkmanager.dev/)
+```
+yay -S networkmanager
+```
+
+### [Blueman](https://github.com/blueman-project/blueman)
+```
+yay -S blueman
+```
+
 ### [Noto Fonts](https://fonts.google.com/noto)
 ```
 yay -S noto-fonts
