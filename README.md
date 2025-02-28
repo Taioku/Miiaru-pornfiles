@@ -46,7 +46,7 @@ yay -S blueman
 
 ### Fonts [Noto Fonts](https://fonts.google.com/noto)
 ```
-yay -S noto-fonts
+yay -S noto-fonts-*
 ```
 
 # Customization
@@ -58,7 +58,7 @@ yay -S waybar
 
 ### Wallpaper Daemon [swww](https://github.com/LGFae/swww)
 ```
-yay -S swww
+yay -S mpvpaper
 ```
 
 ### Wallpaper Manager [Waypaper](https://github.com/anufrievroman/waypaper)
