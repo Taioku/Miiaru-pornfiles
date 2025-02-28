@@ -84,6 +84,7 @@ yay -S waypaper
 
 #### File Manager
 [Dolphin](https://apps.kde.org/dolphin/)
+[Thunar](https://github.com/neilbrown/thunar)
 [List Files](https://github.com/gokcehan/lf/tree/master)
 
 fastfetch
