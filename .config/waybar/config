@@ -97,14 +97,13 @@
         "pulseaudio": {
             "format": "{volume}% {icon}",
             "format-bluetooth": "{volume}% {icon}",
-            "format-muted": " ",
+            "format-muted": "",
             "format-icons": {
                 "default": ["󰝚"]
             },
             "scroll-step": 1,
             "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
             "on-click-right": "pavucontrol",
-            "ignored-sinks": ["Easy Effects Sink"]
         },
         "pulseaudio/slider": {
             "min": 0,

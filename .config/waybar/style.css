@@ -38,7 +38,7 @@ tooltip {
     color: @foreground;
 }
 
-#clock:hover, #custom-pacman:hover, #custom-notification:hover, #custom-audio:hover, #bluetooth:hover, #network:hover, #battery:hover, #cpu:hover, #memory:hover, #temperature:hover{
+#clock:hover, #custom-pacman:hover, #custom-notification:hover, #pulseaudio:hover, #bluetooth:hover, #network:hover, #battery:hover, #cpu:hover, #memory:hover, #temperature:hover{
     transition: all 0s ease;
     color:@color1;
 }
@@ -135,13 +135,13 @@ tooltip {
     padding: 0px 0px;
     transition: all .3s ease; 
 }
-#pulseaudio, #pulseaudio-bluetooth, #pulseaudio-muted, {
+#pulseaudio, #pulseaudio-bluetooth, #pulseaudio-muted {
     font-family: "Noto Sans Mono", monospaced;
     margin-right: 5px;
     padding: 0px 5px;
     color: alpha(@foreground, 1);
     text-shadow: 0px 0px 2px alpha(@black, .5);
-    transition: all .3s ease; 
+    transition: all .3s ease;
 }
 #pulseaudio-slider slider {
     min-height: 0px;
