@@ -50,7 +50,7 @@
         },
         {
             "type": "uptime",
-            "key": "┃ 󱫐 Uptime",
+            "key": "┃  Uptime",
             "keyColor": "reset_"
         },
             "break",
@@ -81,7 +81,7 @@
         },
         {
             "type": "memory",
-            "key": "┃ 🐏 Memory",
+            "key": "┃  Memory",
             "keyColor": "reset_"
         },
             "break",

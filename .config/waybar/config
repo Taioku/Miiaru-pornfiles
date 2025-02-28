@@ -4,7 +4,7 @@
         "reload_style_on_change": true,
         "modules-left": ["custom/notification","clock","custom/pacman","hyprland/window"],
         "modules-center": ["hyprland/workspaces"],
-        "modules-right": ["group/expand","bluetooth","network","battery"],
+        "modules-right": ["group/hardware","group/audio","bluetooth","network","battery"],
 
 
         "custom/notification": {
@@ -57,17 +57,16 @@
         },
 
 
-
-        "group/expand": {
-            "orientation": "horizontal",
+        "group/hardware": {
+            "orientation": "inherit",
             "drawer": {
                 "transition-duration": 300,
-                "transition-toi-left": true,
+                "transition-to-left": true,
                 "click-to-reveal": true
             },
-            "modules": ["custom/expand","cpu","memory","temperature","custom/endpoint"],
+            "modules": ["custom/hardware","cpu","memory","temperature","custom/endpoint"],
         },
-        "custom/expand": {
+        "custom/hardware": {
             "format": "",
             "tooltip": false
         },
@@ -82,11 +81,28 @@
             "critical-threshold": 80,
             "format": " ",
         },
-        "custom/endpoint":{
+        "custom/endpoint": {
             "format": "|",
             "tooltip": false
         },
 
+        "group/audio": {
+            "orientation": "inherit",
+            "drawer": {
+                "transition-duration": 300,
+                "transition-left-to-right": false
+            },
+            "modules": ["custom/audio","pulseaudio/slider"],
+        },
+        "custom/audio": {
+            "format": "󰝚",
+            "tooltip": false
+        },
+        "pulseaudio/slider": {
+            "min": 0,
+            "max": 100,
+            "orientation": "inherit"
+        },
 
         "bluetooth": {
             "format-on": "󰂯",
