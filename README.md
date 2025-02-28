@@ -71,6 +71,10 @@ yay -S mpvpaper
 yay -S waypaper
 ```
 
+### Cursor Theme [hyprcursor](https://github.com/hyprwm/hyprcursor)
+```
+yay -S hyprcursor
+```
 
 
 #### Terminal Emulator
