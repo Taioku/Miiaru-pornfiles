@@ -64,7 +64,7 @@
                 "transition-to-left": true,
                 "click-to-reveal": true
             },
-            "modules": ["custom/hardware","cpu","memory","temperature","custom/endpoint"],
+            "modules": ["custom/hardware","cpu","memory","temperature","custom/waypaper","custom/endpoint"],
         },
         "custom/hardware": {
             "format": "",
@@ -80,6 +80,10 @@
         "temperature": {
             "critical-threshold": 80,
             "format": " ",
+        },
+        "custom/waypaper": {
+            "format": " ",
+            "on-click": "waypaper"
         },
         "custom/endpoint": {
             "format": "|",
