@@ -12,21 +12,21 @@ window#waybar{
 }
 
 .modules-left {
-    padding: 7px;
+    padding: 0px 7px;
     margin: 10 0 0 10;
     border-radius: 5px;
     background: alpha(@background,.6);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
 }
 .modules-center {
-    padding: 7px;
+    padding: 0px 7px;
     margin: 10 10 0 10;
     border-radius: 50px;
     background: alpha(@background,.6);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, .6);
 }
 .modules-right {
-    padding: 7px;
+    padding: 0px 7px;
     margin: 10 10 0 0;
     border-radius: 5px;
     background: alpha(@background,.6);
@@ -40,27 +40,30 @@ tooltip {
 
 #clock:hover, #custom-pacman:hover, #custom-notification:hover, #pulseaudio:hover, #bluetooth:hover, #network:hover, #battery:hover, #cpu:hover, #memory:hover, #temperature:hover{
     transition: all 0s ease;
-    color:@color1;
+    color: @color1;
 }
 
 #custom-notification {
     padding: 0px 5px;
     transition: all .3s ease;
-    color:@foreground;
+    color: @foreground;
 }
 #clock{
+    margin-bottom: 1px;
     margin-left: 5px;
     padding: 0px 5px;
-    color:@foreground;
+    color: @foreground;
     transition: all .3s ease;
 }
 #custom-pacman{
+    margin-bottom: 1px;
     padding: 0px 5px;
     transition: all .3s ease;
-    color:@foreground;
+    color: @foreground;
 
 }
 #window {
+    margin-bottom: 1px;
     border-radius: 0px;
     padding: 0px 10px;
     color: @foreground; 
@@ -131,11 +134,11 @@ tooltip {
 }
 
 #group-audio {
-    margin: -10;
     padding: 0px 0px;
     transition: all .3s ease; 
 }
 #pulseaudio, #pulseaudio-bluetooth, #pulseaudio-muted {
+    margin-bottom: 1px;
     font-family: "Noto Sans Mono", monospaced;
     margin-right: 5px;
     padding: 0px 5px;
@@ -152,7 +155,7 @@ tooltip {
     box-shadow: none;
 }
 #pulseaudio-slider trough {
-    min-height: 10px;
+    min-height:8px;
     min-width: 80px;
     border-radius: 2px;
     background-color: alpha(@background, .6);
