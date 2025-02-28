@@ -92,11 +92,19 @@
                 "transition-duration": 300,
                 "transition-left-to-right": false
             },
-            "modules": ["custom/audio","pulseaudio/slider"],
+            "modules": ["pulseaudio","pulseaudio/slider"],
         },
-        "custom/audio": {
-            "format": "󰝚",
-            "tooltip": false
+        "pulseaudio": {
+            "format": "{volume}% {icon}",
+            "format-bluetooth": "{volume}% {icon}",
+            "format-muted": " ",
+            "format-icons": {
+                "default": ["󰝚"]
+            },
+            "scroll-step": 1,
+            "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+            "on-click-right": "pavucontrol",
+            "ignored-sinks": ["Easy Effects Sink"]
         },
         "pulseaudio/slider": {
             "min": 0,
