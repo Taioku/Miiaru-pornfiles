@@ -80,6 +80,15 @@ yay -S hyprcursor
 ```
 
 
+# Plugins
+
+### [hyprchroma](https://github.com/alexhulbert/HyprChroma)
+```
+hyprpm add https://github.com/alexhulbert/HyprChroma
+hyprpm enable hyprchroma
+hyprpm reload
+```
+
 #### Terminal Emulator
 [Kitty](https://sw.kovidgoyal.net/kitty/)
 [git](https://github.com/kovidgoyal/kitty)
