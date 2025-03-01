@@ -42,6 +42,7 @@ yay -S networkmanager
 
 ### Bluetooth Manager [overskride](https://github.com/kaii-lb/overskride)
 ```
+sudo systemctl enable --now bluetooth
 yay -S overskride
 ```
 
