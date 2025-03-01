@@ -82,6 +82,11 @@ yay -S hyprcursor
 
 # Plugins
 
+### Update hyprpm
+```
+hyprpm update
+```
+
 ### [hyprchroma](https://github.com/alexhulbert/HyprChroma)
 ```
 hyprpm add https://github.com/alexhulbert/HyprChroma
