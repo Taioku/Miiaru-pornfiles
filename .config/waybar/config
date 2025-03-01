@@ -111,9 +111,9 @@
             "format-muted": "",
             "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
             "on-click-middle": "bash $HOME/.config/pulse/scripts/cycle_audio_output.sh",
-            "on-click-right": "helvum",
+            "on-click-right": "kitty pulsemixer",
             "max-volume": 150,
-            "scroll-step": 0.5
+            "scroll-step": 1
         },
 
         "bluetooth": {
