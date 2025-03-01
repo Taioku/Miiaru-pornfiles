@@ -38,7 +38,7 @@ tooltip {
     color: @foreground;
 }
 
-#custom-notification:hover, #clock:hover, #custom-pacman:hover, #custom-wofi:hover, #custom-file_manager:hover, #privacy:hover, #cpu:hover, #memory:hover, #temperature:hover, #custom-hyprpicker:hover, #custom-waypaper:hover, #custom-screenshot:hover, #wireplumber:hover, #bluetooth:hover, #network:hover, #battery:hover {
+#custom-notification:hover, #clock:hover, #custom-pacman:hover, #custom-wofi:hover, #custom-file_manager:hover, #cpu:hover, #memory:hover, #temperature:hover, #custom-hyprpicker:hover, #custom-waypaper:hover, #custom-screenshot:hover, #wireplumber:hover, #bluetooth:hover, #network:hover, #battery:hover {
     transition: all 0s ease;
     color: @color1;
 }
@@ -71,11 +71,16 @@ tooltip {
     transition: all .3s ease;
     color: @foreground;
 }
+#privacy {
+    margin-left: 5px;
+    padding: 0px 5px;
+    color: @foreground;
+}
 #window {
     margin-top: -1px;
     margin-bottom: 1px;
     border-radius: 0px;
-    padding: 0px 10px;
+    padding: 0px 5px;
     color: @foreground; 
 }
 
