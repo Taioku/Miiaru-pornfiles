@@ -40,9 +40,9 @@ yay -S qt5-wayland qt6-wayland
 yay -S networkmanager
 ```
 
-### Bluetooth Manager [Blueman](https://github.com/blueman-project/blueman)
+### Bluetooth Manager [overskride](https://github.com/kaii-lb/overskride)
 ```
-yay -S blueman
+yay -S overskride
 ```
 
 ### Fonts [Noto Fonts](https://fonts.google.com/noto)
