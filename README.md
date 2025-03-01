@@ -21,12 +21,12 @@ yay -S swaync
 
 ### Pipewire [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber)
 ```
-yay -S pipewire wireplumber
+yay -S pipewire wireplumber helvum
 ```
 
 ### XDG Desktop Portal [xdg-desktop-portal-hyprland](https://wiki.hyprland.org/Hypr-Ecosystem/xdg-desktop-portal-hyprland)
 ```
-yay -S xdg-desktop-portal-hyprland-git
+yay -S xdg-desktop-portal-hyprland grim slurp
 ```
 
 ### Qt Wayland Support
