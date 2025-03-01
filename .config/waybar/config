@@ -2,7 +2,7 @@
         "layer": "top",
         "position": "top",
         "reload_style_on_change": true,
-        "modules-left": ["custom/notification","clock","custom/pacman","custom/wofi","hyprland/window"],
+        "modules-left": ["custom/notification","clock","custom/pacman","custom/wofi","custom/file_manager","hyprland/window"],
         "modules-center": ["hyprland/workspaces"],
         "modules-right": ["group/hardware","group/audio","bluetooth","network","battery"],
 
@@ -43,6 +43,11 @@
             "tooltip": false,
             "on-click": "wofi"
         },
+        "custom/file_manager": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "thunar"
+        },
         "hyprland/window": {
             "format": "❯ {} ❮",
             "tooltip": false,
@@ -68,7 +73,7 @@
                 "transition-to-left": true,
                 "click-to-reveal": true
             },
-            "modules": ["custom/hardware","cpu","memory","temperature","custom/waypaper","custom/endpoint"],
+            "modules": ["custom/hardware","cpu","memory","temperature","custom/hyprpicker","custom/waypaper","custom/screenshot","custom/endpoint"],
         },
         "custom/hardware": {
             "format": "",
@@ -88,10 +93,20 @@
             "critical-threshold": 80,
 
         },
+        "custom/hyprpicker": {
+            "format": " ",
+            "tooltip-format": "Copy color to clipboard",
+            "on-click": "hyprpicker | wl-copy"
+        },
         "custom/waypaper": {
             "format": " ",
-            "tooltip": false,
+            "tooltip-format": "Change wallpaper",
             "on-click": "waypaper"
+        },
+        "custom/screenshot": {
+            "format": " ",
+            "tooltip-format": "Copy screenshot to clipboard",
+            "on-click": "slurp | grim -g - - | wl-copy"
         },
         "custom/endpoint": {
             "format": "|",
@@ -117,15 +132,15 @@
         },
 
         "bluetooth": {
-            "format-on": "󰂯",
-            "format-off": "BT-off",
-            "format-disabled": "󰂲",
+            "format-on": "{status} 󰂯",
+            "format-off": "{status}",
+            "format-disabled": "{status} 󰂲",
             "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
             "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
             "tooltip-format-enumerate-connected": "{device_alias}\n{device_address}",
             "tooltip-format-enumerate-connected-battery": "{device_alias}\n{device_address}\n{device_battery_percentage}%",
             "on-click": "",
-            "on-click-right": "blueman-manager",
+            "on-click-right": "overskride"
         },
         "network": {
             "format-wifi": " ",
