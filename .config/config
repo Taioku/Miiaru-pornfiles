@@ -68,7 +68,7 @@
                 "transition-to-left": true,
                 "click-to-reveal": true
             },
-            "modules": ["custom/hardware","cpu","memory","temperature","custom/hyprpicker","custom/waypaper","custom/endpoint"],
+            "modules": ["custom/hardware","cpu","memory","temperature","custom/hyprpicker","custom/waypaper","custom/screenshot","custom/endpoint"],
         },
         "custom/hardware": {
             "format": "",
@@ -95,8 +95,13 @@
         },
         "custom/waypaper": {
             "format": " ",
-            "tooltip": false,
+            "tooltip-format": "Change wallpaper",
             "on-click": "waypaper"
+        },
+        "custom/screenshot": {
+            "format": " ",
+            "tooltip-format": "Copy screenshot to clipboard",
+            "on-click": "slurp | grim -g - - | wl-copy"
         },
         "custom/endpoint": {
             "format": "|",
