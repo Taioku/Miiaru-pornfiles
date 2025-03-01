@@ -2,7 +2,7 @@
         "layer": "top",
         "position": "top",
         "reload_style_on_change": true,
-        "modules-left": ["custom/notification","clock","custom/pacman","hyprland/window"],
+        "modules-left": ["custom/notification","clock","custom/pacman","custom/wofi","hyprland/window"],
         "modules-center": ["hyprland/workspaces"],
         "modules-right": ["group/hardware","group/audio","bluetooth","network","battery"],
 
@@ -38,11 +38,16 @@
             "signal": 8,
             "tooltip": false,
         },
+        "custom/wofi": {
+            "format": "",
+            "tooltip": false,
+            "on-click": "wofi"
+        },
         "hyprland/window": {
             "format": "❯ {} ❮",
+            "tooltip": false,
             "separate-outputs": true
         },
-
 
         "hyprland/workspaces": {
             "format": "{icon}",
@@ -55,7 +60,6 @@
                 "*": [ 1,2,3,4,5 ]
             }
         },
-
 
         "group/hardware": {
             "orientation": "inherit",
@@ -71,18 +75,22 @@
             "tooltip": false
         },
         "cpu": {
-            "format": "󰻠",
+            "format": " 󰻠",
             "tooltip": true
         },
         "memory": {
-            "format": ""
+            "format": " ",
+            "tooltip": true
         },
         "temperature": {
+            "format": "",
+            "tooltip": true,
             "critical-threshold": 80,
-            "format": " ",
+
         },
         "custom/waypaper": {
             "format": " ",
+            "tooltip": false,
             "on-click": "waypaper"
         },
         "custom/endpoint": {
@@ -96,24 +104,16 @@
                 "transition-duration": 300,
                 "transition-left-to-right": false
             },
-            "modules": ["pulseaudio","pulseaudio/slider"],
+            "modules": ["wireplumber"],
         },
-        "pulseaudio": {
-            "format": "{volume}% {icon}",
-            "format-bluetooth": "{volume}% {icon}",
+        "wireplumber": {
+            "format": "{volume}% 󰝚",
             "format-muted": "",
-            "format-icons": {
-                "default": ["󰝚"]
-            },
-            "scroll-step": 1,
             "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
             "on-click-middle": "bash $HOME/.config/pulse/scripts/cycle_audio_output.sh",
-            "on-click-right": "pavucontrol",
-        },
-        "pulseaudio/slider": {
-            "min": 0,
-            "max": 100,
-            "orientation": "inherit"
+            "on-click-right": "helvum",
+            "max-volume": 150,
+            "scroll-step": 0.5
         },
 
         "bluetooth": {
