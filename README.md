@@ -50,6 +50,12 @@ yay -S blueman
 yay -S noto-fonts-*
 ```
 
+### Clipboard Manager [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+```
+yay -S wl-clipboard
+```
+
+
 # Customization
 
 ### Status Bar [Waybar](https://github.com/Alexays/Waybar)
