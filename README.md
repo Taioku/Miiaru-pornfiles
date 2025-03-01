@@ -19,7 +19,7 @@ yay -S hyprland
 yay -S swaync
 ```
 
-### Pipewire [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber) [pulsemixer](https://github.com/GeorgeFilipkin/pulsemixer)
+### Multimedia Framework [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber) [pulsemixer](https://github.com/GeorgeFilipkin/pulsemixer)
 ```
 yay -S pipewire wireplumber pulsemixer
 systemctl --user enable pipewire wireplumber
