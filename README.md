@@ -19,7 +19,7 @@ yay -S hyprland
 yay -S swaync
 ```
 
-### Pipewire [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber)
+### Pipewire [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber) [helvum](https://gitlab.freedesktop.org/pipewire/helvum)
 ```
 yay -S pipewire wireplumber helvum
 ```
