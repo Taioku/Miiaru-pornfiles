@@ -34,11 +34,6 @@ yay -S xdg-desktop-portal-hyprland grim slurp
 yay -S qt5-wayland qt6-wayland
 ```
 
-### Audio Device Manager pulse
-```
-yay -S pulseaudio pavucontrol
-```
-
 ### [Network Manager](https://www.networkmanager.dev/)
 ```
 yay -S networkmanager
