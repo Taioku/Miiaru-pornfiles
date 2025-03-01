@@ -22,6 +22,7 @@ yay -S swaync
 ### Pipewire [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber) [helvum](https://gitlab.freedesktop.org/pipewire/helvum)
 ```
 yay -S pipewire wireplumber helvum
+systemctl --user enable pipewire wireplumber
 ```
 
 ### XDG Desktop Portal [xdg-desktop-portal-hyprland](https://wiki.hyprland.org/Hypr-Ecosystem/xdg-desktop-portal-hyprland)
@@ -48,6 +49,12 @@ yay -S blueman
 ```
 yay -S noto-fonts-*
 ```
+
+### Clipboard Manager [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+```
+yay -S wl-clipboard
+```
+
 
 # Customization
 

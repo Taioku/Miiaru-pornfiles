@@ -49,20 +49,21 @@ tooltip {
     color: @foreground;
 }
 #clock {
-    margin-bottom: 1px;
+    margin-bottom: 2px;
     margin-left: 5px;
     padding: 0px 5px;
     color: @foreground;
     transition: all .3s ease;
 }
 #custom-pacman {
-    margin-bottom: 1px;
+    margin-bottom: 2px;
     padding: 0px 5px;
     transition: all .3s ease;
     color: @foreground;
 
 }
 #custom-wofi {
+    margin-top: 2px;
     padding: 0px 5px;
     transition: all .3s ease;
     color: @foreground;
@@ -143,6 +144,7 @@ tooltip {
     transition: all .3s ease; 
 }
 #wireplumber {
+    margin-bottom: 1px;
     padding: 0px 10px;
     color: @foreground;
     transition: all .3s ease;
