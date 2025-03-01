@@ -19,9 +19,9 @@ yay -S hyprland
 yay -S swaync
 ```
 
-### Pipewire [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber) [helvum](https://gitlab.freedesktop.org/pipewire/helvum)
+### Pipewire [pipewire](https://www.pipewire.org/) [wireplumber](https://wiki.archlinux.org/title/WirePlumber) [pulsemixer](https://github.com/GeorgeFilipkin/pulsemixer)
 ```
-yay -S pipewire wireplumber helvum
+yay -S pipewire wireplumber pulsemixer
 systemctl --user enable pipewire wireplumber
 ```
 
