@@ -4,7 +4,7 @@
         "reload_style_on_change": true,
         "modules-left": ["custom/notification","clock","custom/pacman","custom/wofi","custom/file_manager","privacy","hyprland/window"],
         "modules-center": ["hyprland/workspaces"],
-        "modules-right": ["group/hardware","group/audio","bluetooth","network","battery"],
+        "modules-right": ["group/hardware","wireplumber","bluetooth","network","battery"],
 
 
         "custom/notification": {
@@ -26,11 +26,12 @@
                 "on-scroll-up": "shift_up",
                 "on-click-right": "shift_up",
                 "on-click": "shift_down",
-                "on-scroll-down": "shift_down"
+                "on-scroll-down": "shift_down",
+                "on-click-middle": "bash $HOME/.config/scripts/re-sync_sysclock.sh"
             }
         },
         "custom/pacman": {
-            "format": "󰅢   {}",
+            "format": "󰅢 {}",
             "interval": 30,
             "exec": "checkupdates | wc -l",
             "exec-if": "exit 0",
@@ -132,14 +133,6 @@
             "tooltip": false
         },
 
-        "group/audio": {
-            "orientation": "inherit",
-            "drawer": {
-                "transition-duration": 300,
-                "transition-left-to-right": false
-            },
-            "modules": ["wireplumber"],
-        },
         "wireplumber": {
             "format": "{volume}% 󰝚",
             "format-muted": "",
