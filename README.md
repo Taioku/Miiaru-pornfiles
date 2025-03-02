@@ -46,9 +46,9 @@ sudo systemctl enable --now bluetooth
 yay -S overskride
 ```
 
-### Fonts [Noto Fonts](https://fonts.google.com/noto)
+### Fonts [Noto Fonts](https://fonts.google.com/noto) [Noto Nerd](https://archlinux.org/packages/extra/any/ttf-noto-nerd/)
 ```
-yay -S noto-fonts-*
+yay -S noto-fonts-* ttf-noto-nerd
 ```
 
 ### Clipboard Manager [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
