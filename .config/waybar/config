@@ -99,11 +99,11 @@
             "tooltip": false
         },
         "cpu": {
-            "format": " 󰻠",
+            "format": "",
             "tooltip": true
         },
         "memory": {
-            "format": " ",
+            "format": "",
             "tooltip": true
         },
         "temperature": {

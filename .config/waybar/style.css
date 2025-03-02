@@ -67,6 +67,7 @@ tooltip {
     color: @foreground;
 }
 #custom-file_manager {
+    margin-right: 5px;
     padding: 0px 5px;
     transition: all .3s ease;
     color: @foreground;
