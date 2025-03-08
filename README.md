@@ -79,8 +79,12 @@ yay -S waypaper
 yay -S hyprcursor
 ```
 
-
 # Plugins
+
+### [LolCat](https://github.com/busyloop/lolcat)
+```
+yay -S lolcat
+```
 
 ### Update hyprpm
 ```
