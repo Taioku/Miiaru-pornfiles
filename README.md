@@ -1,6 +1,9 @@
 # Miiaru-pornfiles
 *dotfiles
 
+https://www.nerdfonts.com/cheat-sheet
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines
+
 ## Package Installer [YAY](https://aur.archlinux.org/packages/yay) [git](https://github.com/Jguer/yay?tab=readme-ov-file)
 ```
 sudo pacman -S --needed git base-devel
